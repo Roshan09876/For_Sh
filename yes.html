@@ -17,17 +17,31 @@
         <h2>
             Thank God, You choose yes
         </h2>
-        <!-- <img src="" alt=""> -->
-    </div>
-    <div>
-        <h3>
-            Now, Please send me haha emoji on what's app or insta so that
-            i can know your response
-        </h3>
-    </div>
-    <div class="whats-app">
-        <a href="https://wa.me/9804528733"> <i class="fa-brands fa-whatsapp"></i></a>
+        <img src="wow.jpeg" height="200" alt="">
+        <img src="wow2.png" height="200" alt="">
+        <div>
+            <h3>
+                Could you please send me a "haha" emoji via WhatsApp? This way, I'll know your response.
+            </h3>
+            <h3 class="love">
+                You can text with 
+                <img src="love.jpeg" height="100" alt="">
+                Emoji too.........
+                <img src="cry.png" height="100" alt="">
+            </h3>
+        </div>
+        <div class="whats-app">
+            <a href="https://wa.me/9804528733"> <i class="fa-brands fa-whatsapp"></i></a>
+        </div>
     </div>
 </body>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const elementsToAnimate = document.querySelectorAll('.yes, h3, .whats-app');
+        elementsToAnimate.forEach(function (element) {
+            element.classList.add('animate');
+        });
+    });
+</script>
 
 </html>

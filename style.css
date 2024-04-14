@@ -47,9 +47,7 @@
     background-color: darkred;
 }
 .yes{
-    align-items: center;
-    justify-content: center;
-    margin: auto;
+    margin-left: 300px;
 }
 
 .whats-app a {
@@ -66,4 +64,34 @@
 
 .whats-app a:hover {
     background-color: #128c7e; 
+}
+
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 3;
+        transform: translateY(0);
+    }
+}
+
+.yes,
+h3,
+.whats-app {
+    animation: fadeIn 1s ease forwards;
+    opacity: 0; 
+}
+.animate {
+    animation: fadeIn 2s ease forwards;
+    opacity: 1;
+}
+
+
+.love{
+    display: flex;
+    align-items: center;
 }
