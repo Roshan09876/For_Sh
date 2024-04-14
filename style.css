@@ -1,0 +1,53 @@
+.container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: auto; 
+    margin-bottom: 40px;
+}
+
+.container2 {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: auto; 
+}
+
+.button{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.btn1{
+    margin-right: 40px;
+    background-color: blue;
+    color: white;
+    font-size: 20;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.btn1:hover{
+    background-color: darkblue;
+}
+
+.btn2{
+    background-color: red;
+    color: white;
+    font-size: 20;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.btn2:hover{
+    background-color: darkred;
+}
+.yes{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
